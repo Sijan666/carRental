@@ -32,10 +32,10 @@ const Fleets = () => {
                 <p className='pb-25 text-base text-[#454545] w-232 mx-auto'>Lorem ipsum dolor sit amet consectetur. Purus viverra viverra amet molestie imperdiet quis enim varius. Vitae rutrum praesent a et cursus sagittis egestas blandit eget. </p>
                 <div className="filterPart">
                     <Flex className={'justify-center gap-x-25'}>
-                        <Button data-filter=".popular" btnText={'Popular'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
-                        <Button data-filter=".smallCar" btnText={'Small Car'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
-                        <Button data-filter=".largeCar" btnText={'Large Car'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
-                        <Button data-filter=".exclusiveCar" btnText={'Exclusive Car'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                        <Button data-filter=".popular" btnText={'Popular'} className={'[&.mixitup-control-active]:bg-[#EA002D] [&.mixitup-control-active]:text-white px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                        <Button data-filter=".smallCar" btnText={'Small Car'} className={'[&.mixitup-control-active]:bg-[#EA002D] [&.mixitup-control-active]:text-white px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                        <Button data-filter=".largeCar" btnText={'Large Car'} className={'[&.mixitup-control-active]:bg-[#EA002D] [&.mixitup-control-active]:text-white px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                        <Button data-filter=".exclusiveCar" btnText={'Exclusive Car'} className={'[&.mixitup-control-active]:bg-[#EA002D] [&.mixitup-control-active]:text-white px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
                     </Flex>
                     <div className="productPart pt-25 flex flex-wrap gap-x-10.25 gap-y-10.25" ref={containerRef}>
                         <div className="mix popular smallCar">
