@@ -1,10 +1,10 @@
 
 
-const Button = ({className , btnText }) => {
+const Button = ({ btnText, className, ...rest }) => {
     return (
-        <>
-        <button className={`cursor-pointer ${className}`}>{btnText}</button>
-        </>
+        <button className={`cursor-pointer ${className}`} {...rest}>
+            {btnText}
+        </button>
     )
 }
 
