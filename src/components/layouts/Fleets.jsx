@@ -1,0 +1,106 @@
+import React from 'react'
+import Container from '../Container'
+import Flex from '../Flex'
+import Button from '../Button'
+import Product from '../Product'
+import productImg from '../../assets/productImg.png'
+import stars from '../../assets/stars.png'
+
+const Fleets = () => {
+    return (
+        <>
+        <div className="py-25">
+            <Container className={'text-center'}>
+                <h3 className='text-[#181818] text-[48px] font-semibold w-285 mx-auto pb-7.5'>Choose Your Dream Car from Our Wide Range of Vehicles</h3>
+                <p className='pb-25 text-base text-[#454545] w-232 mx-auto'>Lorem ipsum dolor sit amet consectetur. Purus viverra viverra amet molestie imperdiet quis enim varius. Vitae rutrum praesent a et cursus sagittis egestas blandit eget. </p>
+                <div className="filterPart">
+                    <Flex className={'justify-center gap-x-25'}>
+                        <Button btnText={'Popular'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                        <Button btnText={'Small Car'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                        <Button btnText={'Large Car'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                        <Button btnText={'Exclusive Car'} className={'px-20 py-7.5 bg-[#E8E8E8] text-[24px] font-semibold text-[#454545] hover:bg-[#EA002D] hover:text-[#FDFDFD] duration-300'}/>
+                    </Flex>
+                    <div className="productPart pt-25">
+                        <Flex className={'flex-wrap gap-x-10.25 gap-y-10.25'}>
+                            <div className="">
+                                <Product 
+                                productImg={productImg}
+                                priceCurrency={'$'}
+                                productPrice={'$50.23'}
+                                productTime={'/day'}
+                                productRatings={stars}
+                                productLocation={'California'}
+                                productModel={'BMW M3 Series'}
+                                productBtn={'Booking Now'}
+                                />
+                            </div>
+                            <div className="">
+                                <Product 
+                                productImg={productImg}
+                                priceCurrency={'$'}
+                                productPrice={'$50.23'}
+                                productTime={'/day'}
+                                productRatings={stars}
+                                productLocation={'California'}
+                                productModel={'BMW M3 Series'}
+                                productBtn={'Booking Now'}
+                                />
+                            </div>
+                            <div className="">
+                                <Product 
+                                productImg={productImg}
+                                priceCurrency={'$'}
+                                productPrice={'$50.23'}
+                                productTime={'/day'}
+                                productRatings={stars}
+                                productLocation={'California'}
+                                productModel={'BMW M3 Series'}
+                                productBtn={'Booking Now'}
+                                />
+                            </div>
+                            <div className="">
+                                <Product 
+                                productImg={productImg}
+                                priceCurrency={'$'}
+                                productPrice={'$50.23'}
+                                productTime={'/day'}
+                                productRatings={stars}
+                                productLocation={'California'}
+                                productModel={'BMW M3 Series'}
+                                productBtn={'Booking Now'}
+                                />
+                            </div>
+                            <div className="">
+                                <Product 
+                                productImg={productImg}
+                                priceCurrency={'$'}
+                                productPrice={'$50.23'}
+                                productTime={'/day'}
+                                productRatings={stars}
+                                productLocation={'California'}
+                                productModel={'BMW M3 Series'}
+                                productBtn={'Booking Now'}
+                                />
+                            </div>
+                            <div className="">
+                                <Product 
+                                productImg={productImg}
+                                priceCurrency={'$'}
+                                productPrice={'$50.23'}
+                                productTime={'/day'}
+                                productRatings={stars}
+                                productLocation={'California'}
+                                productModel={'BMW M3 Series'}
+                                productBtn={'Booking Now'}
+                                />
+                            </div>
+                        </Flex>
+                    </div>
+                </div>
+            </Container>
+        </div>
+        </>
+    )
+}
+
+export default Fleets
