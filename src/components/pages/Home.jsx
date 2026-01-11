@@ -5,6 +5,7 @@ import About from '../layouts/About'
 import Service from '../layouts/Service'
 import Feature from '../layouts/Feature'
 import Fleets from '../layouts/Fleets'
+import Testimonial from '../layouts/Testimonial'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Service/>
         <Feature/>
         <Fleets/>
+        <Testimonial/>
         </>
     )
 }

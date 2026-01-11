@@ -26,7 +26,7 @@ const Fleets = () => {
                                 <Product 
                                 productImg={productImg}
                                 priceCurrency={'$'}
-                                productPrice={'$50.23'}
+                                productPrice={'50.23'}
                                 productTime={'/day'}
                                 productRatings={stars}
                                 productLocation={'California'}
@@ -38,10 +38,22 @@ const Fleets = () => {
                                 <Product 
                                 productImg={productImg}
                                 priceCurrency={'$'}
-                                productPrice={'$50.23'}
+                                productPrice={'36.23'}
                                 productTime={'/day'}
                                 productRatings={stars}
-                                productLocation={'California'}
+                                productLocation={'Washington'}
+                                productModel={'BMW M4 Series'}
+                                productBtn={'Booking Now'}
+                                />
+                            </div>
+                            <div className="">
+                                <Product 
+                                productImg={productImg}
+                                priceCurrency={'$'}
+                                productPrice={'40.15'}
+                                productTime={'/day'}
+                                productRatings={stars}
+                                productLocation={'Boston'}
                                 productModel={'BMW M3 Series'}
                                 productBtn={'Booking Now'}
                                 />
@@ -50,10 +62,10 @@ const Fleets = () => {
                                 <Product 
                                 productImg={productImg}
                                 priceCurrency={'$'}
-                                productPrice={'$50.23'}
+                                productPrice={'48.36'}
                                 productTime={'/day'}
                                 productRatings={stars}
-                                productLocation={'California'}
+                                productLocation={'San Antonio'}
                                 productModel={'BMW M3 Series'}
                                 productBtn={'Booking Now'}
                                 />
@@ -62,11 +74,11 @@ const Fleets = () => {
                                 <Product 
                                 productImg={productImg}
                                 priceCurrency={'$'}
-                                productPrice={'$50.23'}
+                                productPrice={'58.89'}
                                 productTime={'/day'}
                                 productRatings={stars}
-                                productLocation={'California'}
-                                productModel={'BMW M3 Series'}
+                                productLocation={'New York'}
+                                productModel={'Porsche 911'}
                                 productBtn={'Booking Now'}
                                 />
                             </div>
@@ -74,23 +86,11 @@ const Fleets = () => {
                                 <Product 
                                 productImg={productImg}
                                 priceCurrency={'$'}
-                                productPrice={'$50.23'}
+                                productPrice={'69.05'}
                                 productTime={'/day'}
                                 productRatings={stars}
-                                productLocation={'California'}
-                                productModel={'BMW M3 Series'}
-                                productBtn={'Booking Now'}
-                                />
-                            </div>
-                            <div className="">
-                                <Product 
-                                productImg={productImg}
-                                priceCurrency={'$'}
-                                productPrice={'$50.23'}
-                                productTime={'/day'}
-                                productRatings={stars}
-                                productLocation={'California'}
-                                productModel={'BMW M3 Series'}
+                                productLocation={'San Diego'}
+                                productModel={'Volvo XC90'}
                                 productBtn={'Booking Now'}
                                 />
                             </div>
