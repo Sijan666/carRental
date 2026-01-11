@@ -17,11 +17,11 @@ const Header = () => {
                     </Link>
                     <div className="">
                         <ul className='flex gap-x-20'>
-                            <li className='text-[#181818] font-semibold'>About</li>
-                            <li className='text-[#181818] font-semibold'>Service</li>
-                            <li className='text-[#181818] font-semibold'>Blog</li>
-                            <li className='text-[#181818] font-semibold'>Fleet</li>
-                            <li className='text-[#181818] font-semibold'>
+                            <li className='text-[#181818] font-semibold text-[24px]'>About</li>
+                            <li className='text-[#181818] font-semibold text-[24px]'>Service</li>
+                            <li className='text-[#181818] font-semibold text-[24px]'>Blog</li>
+                            <li className='text-[#181818] font-semibold text-[24px]'>Fleet</li>
+                            <li className='text-[#181818] font-semibold text-[24px]'>
                                 <Link to={'/contact'}>
                                     Contact
                                 </Link>
@@ -29,7 +29,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <Link to={'/contact'}>
-                        <Button btnText={"Call Us"} className={'px-15 py-2.5 bg-[#EA002D] hover:bg-[#FDFDFD] hover:text-[#EA002D] font-semibold text-base text-white duration-300 '}/>
+                        <Button btnText={"Call Us"} className={'px-15 py-5 bg-[#EA002D] hover:bg-[#FDFDFD] hover:text-[#EA002D] font-semibold text-base text-white duration-300 '}/>
                     </Link>
                 </Flex>
             </Container>
