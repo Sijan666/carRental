@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AnimatedPremiumError = () => {
     return (
@@ -83,17 +84,21 @@ const AnimatedPremiumError = () => {
                         The page you are looking for has sped past our radar. Let's get you back on the main route.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-                        <button className="group relative w-full sm:w-auto px-8 py-4 bg-[#E50027] hover:bg-[#c40020] text-white font-medium rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(229,0,39,0.2)] hover:shadow-[0_0_30px_rgba(229,0,39,0.5)] overflow-hidden">
-                            <span className="relative z-10 flex items-center justify-center gap-2">
-                                Return to Homepage
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </span>
-                        </button>
-                        <button className="w-full sm:w-auto px-8 py-4 bg-transparent hover:bg-white/5 text-white font-medium rounded-full border border-white/20 hover:border-white/40 transition-all duration-300">
-                            Contact Support
-                        </button>
+                        <Link to={'/'}>
+                            <button className="cursor-pointer group relative w-full sm:w-auto px-8 py-4 bg-[#E50027] hover:bg-[#c40020] text-white font-medium rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(229,0,39,0.2)] hover:shadow-[0_0_30px_rgba(229,0,39,0.5)] overflow-hidden">
+                                <span className="relative z-10 flex items-center justify-center gap-2">
+                                    Return to Homepage
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </Link>
+                        <Link to={'/contact'}>
+                            <button className="cursor-pointer w-full sm:w-auto px-8 py-4 bg-transparent hover:bg-white/5 text-white font-medium rounded-full border border-white/20 hover:border-white/40 transition-all duration-300">
+                                Contact Support
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
