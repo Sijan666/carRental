@@ -28,9 +28,8 @@ const AnimatedPremiumError = () => {
                 }
                 .spin-origin {
                 transform-box: fill-box;
-                transform-origin: center;
-                }
-            `}</style>
+                transform-origin: center;}`}
+            </style>
             {/* Ambient Red Glow */}
             <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-125 h-125 bg-[#E50027]/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
             {/* Massive Background Text */}
