@@ -18,19 +18,15 @@ const Service = () => {
         <>
             <div className="py-10 md:py-16 lg:py-25">
                 <div className="bg-[url('/src/assets/serviceBg.png')] bg-no-repeat bg-cover bg-center h-auto lg:h-165 py-10 lg:py-0">
-                    <Container>
+                    <Container className={'px-4 lg:px-0'}>
                         <Flex className="items-start flex-col lg:flex-row gap-8 lg:gap-4 px-4 sm:px-6 lg:px-0">
-                            
-                            {/* Left empty space - hidden on mobile/tablet to save space */}
                             <div className="hidden lg:block lg:w-[57%]">
                             </div>
-                            
                             {/* Right Content */}
                             <div className="flex-1 w-full">
                                 <h3 className='text-[#181818] text-[28px] md:text-[36px] lg:text-[48px] font-semibold w-full max-w-full lg:max-w-150 pb-8 lg:pb-12 leading-tight text-center lg:text-left'>
                                     Explore Our Wide Range of Car Rental Services
                                 </h3>
-                                
                                 <div className="h-auto lg:h-165 w-full">
                                     <Accordion type="single" collapsible>
                                         {/* Item 1 */}
@@ -97,7 +93,6 @@ const Service = () => {
                                                 </p>
                                             </AccordionContent>
                                         </AccordionItem>
-                                        
                                     </Accordion>
                                 </div>
                             </div>
