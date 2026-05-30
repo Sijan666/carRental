@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import Banner from '../layouts/Banner'
 import Searchbar from '../layouts/Searchbar'
 import About from '../layouts/About'
@@ -11,6 +12,10 @@ import Blog from '../layouts/Blog'
 const Home = () => {
     return (
         <>
+        <Helmet>
+            <title>Home | Car Rental</title>
+            <meta name="description" content="Welcome to our website. Discover our fleets, services, and more." />
+        </Helmet>
         <Banner/>
         <Searchbar/>
         <About/>
