@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 const Contact = () => {
     return (
         <>
-            {/* React Helmet Meta Tags */}
             <Helmet>
                 <title>Contact Us | My Website</title>
                 <meta 

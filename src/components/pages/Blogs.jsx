@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 export default function Blogs() {
     return (
         <div className="bg-amber-400 mt-35">
-            {/* React Helmet Meta Tags */}
             <Helmet>
                 <title>Our Blog | My Website</title>
                 <meta 
