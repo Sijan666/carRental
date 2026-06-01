@@ -6,7 +6,7 @@ import { FaCalendarDay, FaMapMarkerAlt, FaSearch } from 'react-icons/fa'
 const Searchbar = () => {
     return (
         <>
-        <div className="lg:absolute left-0 lg:bottom-5 w-full mt-10 lg:mt-0 z-10">
+        {/* <div className="lg:absolute left-0 lg:bottom-5 w-full mt-10 lg:mt-0 z-10">
             <Container className={'px-4 lg:px-0'}>
                 <div className="w-full px-5 py-8 md:px-7.5 md:py-12.5 bg-[#FDFDFD] shadow-newTwo rounded-md lg:rounded-none">
                     <Flex className={'flex-col lg:flex-row justify-between gap-y-4 lg:gap-y-0 lg:gap-x-5'}>
@@ -37,7 +37,7 @@ const Searchbar = () => {
                     </Flex>
                 </div>
             </Container>
-        </div>
+        </div> */}
         </>
     )
 }
