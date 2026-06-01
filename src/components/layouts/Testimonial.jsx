@@ -4,13 +4,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Testimonial = () => {
-    // useEffect(() => {
-    //     AOS.init({
-    //         duration: 1000,
-    //         once: false,
-    //         mirror: true,
-    //     });
-    // }, []);
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: false,
+            mirror: true,
+        });
+    }, []);
 
     return (
         <>
